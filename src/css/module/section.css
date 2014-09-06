@@ -1,0 +1,74 @@
+/*!
+ * グルーパルナビゲーション
+ */
+ 
+.section {
+  padding: 1em;
+  background: #fff;
+  color: #333;
+}
+.section:nth-child(even) {
+  background: rgba(255,255,255,.9);
+}
+.section > h1 {
+  display: none;
+}
+.section > h2 {
+  color: #0F70B5;
+  margin: .5em auto 1em;
+  font-size: 140%;
+}
+.section > ul {
+  text-align: left;
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  max-width: 50em;
+}
+.section > ul > li {
+	margin: 1em 0;
+	padding: .5em 1em;
+	background: rgba(15, 112, 181, 0.1);
+	border-radius: .5em;
+}
+.section > ul > li > .ml {
+	width: 1em;
+	height: 1em;
+	padding: .1em;
+	line-height: 1em;
+	background: #0F70B5;
+	color: #fff;
+	display: block;
+	border-radius: .6em;
+	vertical-align: middle;
+	margin: 0 auto .2em;
+}
+.section > p {
+  max-width: 50em;
+  margin: 1em auto;
+  text-align: left;
+}
+.section > p.desc {
+	color: #999;
+}
+
+
+@media only screen and (min-width: 560px) {
+	.section > ul {
+	  padding: 0 0 0 2em;
+	}
+	.section > ul > li {
+		padding-left: 6.5em;
+		padding-top: 2.3em;
+		position: relative;
+		min-height: 3.3em;
+	}
+	.section > ul > li > .ml {
+		position: absolute;
+		left: 14px;
+		top: 10px;
+	}
+}
+
+@media only screen and (min-width: 720px) {
+}

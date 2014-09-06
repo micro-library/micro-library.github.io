@@ -1,0 +1,53 @@
+/*!
+ * グルーパルナビゲーション
+ */
+ 
+.charter {
+	padding: 3em 0;
+  background: #fff;
+  color: #333;
+  text-align: left;
+}
+.charter > h2 {
+	color: #0F70B5;
+	font-size: 120%;
+	width: 12em;
+	margin: 0 20px;
+	border-top: 4px solid #0F70B5;
+	padding: .5em 0 0;
+}
+.charter > ul {
+	margin: 1em 20px 2em;
+	padding: 0;
+	list-style: none;
+}
+.charter > ul > li {
+	font-size: 100%;
+	margin: 0 0 .5em;
+}
+.charter > ul:nth-child(2) > li {
+	font-size: 120%;
+}
+.charter > p {
+	color: #999;
+	margin: 1em auto;
+	padding: 0 1em;
+	text-align: center;
+}
+
+
+
+@media only screen and (min-width: 640px) {
+	.charter > h2 {
+		font-size: 120%;
+		position: absolute;
+		right: 65%;
+		margin: 0;
+		padding: .5em 0 0;
+	}
+	.charter > ul {
+		margin: 0 0 2em 40%;
+		padding: 0;
+		list-style: none;
+	}
+}
