@@ -19,12 +19,13 @@
 	background: #fff;
 	color: #0F70B5;
 	font-size: 50%;
-	padding: .4em .5em .3em;
+	padding: .3em .5em;
 	vertical-align: middle;
 	display: block;
 	width: 8em;
 	margin: 1em auto 0;
 	line-height: 1em;
+	font-family: sans-serif;
 }
 .title > p {
   padding: 0 1em;
