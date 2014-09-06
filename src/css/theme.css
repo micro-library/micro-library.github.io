@@ -6,6 +6,7 @@ body {
 
 .title > h1,
 body > section > h2,
-body > footer h2 {
+body > footer h2,
+.charter {
 	font-family: "フォーク M","Folk Medium"
 }
