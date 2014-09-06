@@ -11,7 +11,7 @@
   display: block;
 }
 .title > h1 {
-  font-size: 120%;
+  font-size: 140%;
   margin: .5em 0 1em;
   line-height: 1em;
 }
@@ -48,7 +48,7 @@
     font-size: 1000%;
   }
   .title > h1 {
-    font-size: 1.7em;
+    font-size: 150%;
   }
   .title > p {
     padding: 0 3em;
@@ -68,7 +68,7 @@
     font-size: 1200%;
   }
   .title > h1 {
-    font-size: 1.6em;
+    font-size: 160%;
   }
   .title > p {
     padding: 0 5em;
