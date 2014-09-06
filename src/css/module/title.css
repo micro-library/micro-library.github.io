@@ -19,13 +19,24 @@
 	background: #fff;
 	color: #0F70B5;
 	font-size: 50%;
-	padding: .3em .5em;
+	padding: 6px;
 	vertical-align: middle;
 	display: block;
 	width: 8em;
 	margin: 1em auto 0;
 	line-height: 1em;
 	font-family: sans-serif;
+	position: relative;
+}
+.title > h1 > span:after {
+	position: absolute;
+	left: 2px;
+	right: 2px;
+	top: 2px;
+	bottom: 2px;
+	border: 1px solid #0F70B5;
+	content: "*";
+	text-indent: -9999px;
 }
 .title > p {
   padding: 0 1em;
