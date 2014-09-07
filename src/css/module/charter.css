@@ -10,11 +10,11 @@
 }
 .charter > h2 {
 	color: #0F70B5;
-	font-size: 120%;
-	width: 12em;
+	font-size: 95%;
 	margin: 0 20px;
 	border-top: 4px solid #0F70B5;
-	padding: .5em 0 0;
+	padding: .5em 0 .3em;
+	border-bottom: 1px dotted #0F70B5;
 }
 .charter > ul {
 	margin: 1em 20px 2em;
@@ -34,16 +34,23 @@
 	padding: 0 1em;
 	text-align: center;
 }
-
+.charter > h2 .br {
+	display: inline;
+}
 
 
 @media only screen and (min-width: 640px) {
 	.charter > h2 {
 		font-size: 120%;
+		width: 12em;
 		position: absolute;
 		right: 65%;
 		margin: 0;
 		padding: .5em 0 0;
+		border-bottom: none;
+	}
+	.charter > h2 .br {
+		display: block;
 	}
 	.charter > ul {
 		margin: 0 0 2em 40%;

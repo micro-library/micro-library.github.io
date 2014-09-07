@@ -47,6 +47,7 @@
   max-width: 50em;
   margin: 1em auto;
   text-align: left;
+  line-height: 1.7em;
 }
 .section > p.desc {
 	color: #999;

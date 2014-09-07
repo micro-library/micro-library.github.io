@@ -13,6 +13,13 @@ a {
   color: #2e9ad9;
 }
 
+.br {
+	display: block;
+	width: 0;
+	height: 0;
+	line-height: 0;
+}
+
 .under-construction {
   color: #cd8585;
   font-size: 75%;
